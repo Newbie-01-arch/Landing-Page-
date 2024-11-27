@@ -8,17 +8,94 @@
     font-style: normal;
 }
 
-.hero-section{
+.SECTION-area-1{
     background-color: #1F2937;
-    height: 300px;
+    height: 500px;
 }
 
-/* .navbar{
-} */
+.navbar{
+    height: 60px;
+    color: #fff;
+}
+
+.navbar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 .container{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.navbar ul{
     display: flex;
-    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    gap: 10px;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+ul{
+    list-style-type: none;
+    font-size: 18px;
+    color:#E5E7EB;
+}
+
+
+.content-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 30px;
+    gap: 50px;
+}
+
+
+.hero-title,span{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+span{
+    display: block;
+}
+
+.para{
+    font-size: 18px;
+    color:#E5E7EB;
+}
+
+
+.content-image img{
+    width: 500px;
+    height: 250px;
+}
+
+.main-title{
+    align-self: flex-start;
+}
+
+/* .hero-section{
+    background-color: #1F2937;
+    height: 300px;
+} 
+
+ .navbar{
+} 
+
+ .container{
+    display: flex;
+    justify-content: space-between;
     align-items: center;
 
 }
@@ -39,12 +116,21 @@ ul{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin: 50px 170px 10px;
 }
 
 
+.main-title{
+    align-self: center;
+}
 
 
-/* 
+.hero-title span{
+    display: block;
+} 
+
+
+
 .main-div{
 
 }
